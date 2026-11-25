@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-key-digit: #333333;
+  --color-key-digit-active: #737373;
+  --color-key-fn: #a5a5a5;
+  --color-key-fn-active: #d9d9d9;
+  --color-key-op: #ff9f0a;
+  --color-key-op-active: #fbc78d;
+}
+
+html {
+  background: #000000;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
